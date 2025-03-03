@@ -1,0 +1,104 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+nav {
+    padding: 15px;
+    font-size: 24px;
+    background-color: #BAFBFF; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+.bg-inicio   {
+    background-image: url(images/fondo%20bllog.jpg);
+    background-size: cover;
+    height: 600px;
+    background-position: 84% 0%;
+}
+p   {
+    text-align: justify;
+
+}
+.titulos {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+    color: #000000;
+}
+.bg_fondo {
+    background-color: #BAFBFF;
+}
+.bg-img1 {
+    background-image: url(images/act%201.jpg);
+}
+
+.bg-inicio {
+    background-image: url(images/fondo1.png);
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+	background-color: #BAFAFF;
+}
+
+
+section {
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+.img-fluid {
+    width: 270px;
+    height: 370px;
+    background-image: url(images/tivi%20familar.png);
+}
+.bg_funback {
+background-color: #BAFAFF;
+}
+.titulo_princi {
+    color: #FFFFFF;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0px 0px 10px #00919C;
+}
+.card-body1{
+width: 400px;
+height: 400px;
+}
+
+.btn{
+transition: transform 0.3s ease-in-out;		
+}
+
+.btn:hover{
+transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+	background-color: #00828C;	
+	
+}
+.fondoseries {
+    background-color: #BAFAFF;
+}
+
+.imgblog{
+	margin: 25px 70px ;
+}
+.jumbocolor {
+	
+background-color: #BAFAFF;
+}
+
